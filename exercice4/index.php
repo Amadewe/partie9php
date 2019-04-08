@@ -6,7 +6,8 @@
 La fonction time() ne prend aucun argument et retourne la date courante en secondes depuis le 1er janvier 1970. */?>
 <p>Aujourd'hui : <?= time();  ?></p>
 <?php /* La fonction mktime retourne, pour une date donnée, le timestamp lui correspondant.
-int mktime ( int hour, int minute, int second, int month, int day, int year) */?>
+int mktime ( int hour, int minute, int second, int month, int day, int year) 
+Permet d'obtenir le nombre de secondes écoulées du 1er janvier 1970 au 2 aout 2016 15h  */?>
 <p>timestamp du mardi 2 août 2016 à 15h : <?= mktime(15, 0, 0, 8, 2, 2016)?></p>
 </body>
 </html>
